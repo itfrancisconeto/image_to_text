@@ -24,9 +24,9 @@ with st.sidebar:
         icons=["list-task"],
         styles={
                 "container": {"padding": "0!important", "background-color": "#fafafa"},
-                "icon": {"color": "white", "font-size": "25px"},
+                "icon": {"color": "white", "font-size": "15px"},
                 "nav-link": {
-                    "font-size": "25px",
+                    "font-size": "15px",
                     "text-align": "left",
                     "margin": "0px",
                     "--hover-color": "#eee",
