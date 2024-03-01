@@ -3,6 +3,8 @@ from PIL import Image
 import pytesseract
 from streamlit_option_menu import option_menu
 
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
+
 st.set_page_config(
     page_title="Swiss Army Knife",
     page_icon=""
